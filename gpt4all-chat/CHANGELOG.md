@@ -6,12 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+- Support DeepSeek-R1 Qwen models ([#3431](https://github.com/nomic-ai/gpt4all/pull/3431))
+
 ### Fixed
 - Fix regression while using localdocs with server API ([#3410](https://github.com/nomic-ai/gpt4all/pull/3410))
 - Don't show system messages in server chat view ([#3411](https://github.com/nomic-ai/gpt4all/pull/3411))
 - Fix `codesign --verify` failure on macOS ([#3413](https://github.com/nomic-ai/gpt4all/pull/3413))
 - Code Interpreter: Fix console.log not accepting a single string after v3.7.0 ([#3426](https://github.com/nomic-ai/gpt4all/pull/3426))
 - Fix Phi 3.1 Mini 128K Instruct template (by [@ThiloteE](https://github.com/ThiloteE) in [#3412](https://github.com/nomic-ai/gpt4all/pull/3412))
+- Don't block the gui thread for reasoning ([#3435](https://github.com/nomic-ai/gpt4all/pull/3435))
 
 ## [3.7.0] - 2025-01-21
 
